@@ -1,0 +1,5 @@
+development:
+  password: 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
+  theme_id: "124894118084"
+  store: aws-learning.myshopify.com
+  directory: "dist"
