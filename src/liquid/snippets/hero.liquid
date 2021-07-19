@@ -1,0 +1,11 @@
+{% comment %}
+    requires the following arguments
+        -- Settings
+{% endcomment %}
+
+<section class="hero">
+    <h2 class="hero__header">{{ settings.header }}</h2>
+    <p class="hero__description">{{ settings.body }}</p>
+    <a href="{{ settings.link_url }}" class="hero__link">{{ settings.link_text }}</a>
+
+</section>

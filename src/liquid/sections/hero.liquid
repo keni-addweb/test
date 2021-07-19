@@ -1,0 +1,25 @@
+{% render 'hero' with {
+    settings: section.settings
+} %}
+
+
+{% schema %}
+
+    {
+        "name": "Hero",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "heading"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Hero",
+                "category": "Image w/ text"
+            }
+        ]
+    }
+
+{% endschema %}
